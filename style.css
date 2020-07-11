@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'digital-7';
+    src: url(digital-7.ttf);
+}
+*{
+    text-align: center;
+    background-color: hotpink;
+    font-family: digital-7;
+}
+.container{
+    background-color: violet;
+}
+h1{
+    display: inline-block;
+    width: 100px;
+}
+.st{
+    font-size: 80px;
+}
+p{
+    font-size: 22px;
+}
+span{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: green;
+    background-color: rgba(247, 241, 241, 0.308);
+    border-radius: 20%;
+}
+button{
+    border-radius: 20%;
+    background-color: white;
+    color: green;
+    width: 80px;
+    height: 40px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 3px rgba(112, 211, 250, 0.733);
+    margin-top: 25px;
+}
